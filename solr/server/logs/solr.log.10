@@ -1,0 +1,238 @@
+2019-06-16 08:24:34.287 INFO  (main) [   ] o.e.j.u.log Logging initialized @2468ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-06-16 08:24:34.460 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-06-16 08:24:34.470 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_191-b12
+2019-06-16 08:24:34.497 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/server/contexts/] at interval 0
+2019-06-16 08:24:35.451 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-06-16 08:24:35.462 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-06-16 08:24:35.463 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-06-16 08:24:35.464 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-06-16 08:24:35.509 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-06-16 08:24:35.540 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-06-16 08:24:35.544 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 8.0.0-SNAPSHOT unknown - 钀岃悓鍝掔殑鐩煎洝 - 2019-05-10 22:42:33
+2019-06-16 08:24:35.545 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-06-16 08:24:35.545 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\workspace\IntelliJ IDEA\solr-8.0.0\solr
+2019-06-16 08:24:35.546 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-06-16T08:24:35.546Z
+2019-06-16 08:24:35.564 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home
+2019-06-16 08:24:35.572 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\solr.xml
+2019-06-16 08:24:35.631 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@5c7933ad, but no JMX reporters were configured - adding default JMX reporter.
+2019-06-16 08:24:36.181 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-06-16 08:24:36.584 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@66ec9390[provider=null,keyStore=null,trustStore=null]
+2019-06-16 08:24:36.714 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@5edf2821[provider=null,keyStore=null,trustStore=null]
+2019-06-16 08:24:36.867 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-06-16 08:24:36.868 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-06-16 08:24:36.931 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5c7933ad
+2019-06-16 08:24:36.933 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5c7933ad
+2019-06-16 08:24:36.940 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5c7933ad
+2019-06-16 08:24:36.978 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home
+2019-06-16 08:24:36.979 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [db_item]
+2019-06-16 08:24:37.048 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.c.SolrResourceLoader [db_item] Added 54 libs to classloader, from paths: [/D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/contrib/aha/lib, /D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/contrib/extraction/lib, /D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/contrib/langid/lib, /D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/contrib/velocity/lib, /D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/dist]
+2019-06-16 08:24:37.214 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2019-06-16 08:24:37.219 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.0.0
+2019-06-16 08:24:37.378 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.IndexSchema [db_item] Schema name=example-DIH-db
+2019-06-16 08:24:37.543 WARN  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2019-06-16 08:24:38.132 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.IndexSchema Loaded schema example-DIH-db/1.6 with uniqueid field id
+2019-06-16 08:24:38.375 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.c.CoreContainer Creating SolrCore 'db_item' using configuration from instancedir D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\db_item, trusted=true
+2019-06-16 08:24:38.439 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.db_item' (registry 'solr.core.db_item') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5c7933ad
+2019-06-16 08:24:38.459 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@340b9973{/solr,file:///D:/workspace/IntelliJ%20IDEA/solr-8.0.0/solr/server/solr-webapp/webapp/,AVAILABLE}{D:\workspace\IntelliJ IDEA\solr-8.0.0\solr\server/solr-webapp/webapp}
+2019-06-16 08:24:38.476 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@672b72ba{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-06-16 08:24:38.478 INFO  (main) [   ] o.e.j.s.Server Started @6661ms
+2019-06-16 08:24:38.481 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.c.SolrCore [[db_item] ] Opening new SolrCore at [D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\db_item], dataDir=[D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\db_item\data\]
+2019-06-16 08:24:38.549 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-06-16 08:24:39.159 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-06-16 08:24:39.159 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-06-16 08:24:39.180 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-06-16 08:24:39.180 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-06-16 08:24:39.242 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.SolrIndexSearcher Opening [Searcher@4a223ced[db_item] main]
+2019-06-16 08:24:39.256 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\db_item\conf
+2019-06-16 08:24:39.275 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-06-16 08:24:39.283 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-06-16 08:24:39.295 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2019-06-16 08:24:39.299 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2019-06-16 08:24:39.323 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2019-06-16 08:24:39.323 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.h.c.SuggestComponent Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@606ca313, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+2019-06-16 08:24:39.325 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: D:\workspace\IntelliJ IDEA\solr-8.0.0\solr_home\db_item\conf\elevate.xml
+2019-06-16 08:24:39.335 INFO  (coreLoadExecutor-9-thread-1) [   x:db_item] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-06-16 08:24:39.347 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4a223ced[db_item] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-16 08:24:39.422 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=73
+2019-06-16 08:24:39.423 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-06-16 08:24:39.423 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-06-16 08:24:39.423 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2019-06-16 08:24:39.423 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.h.c.SuggestComponent buildOnStartup: mySuggester
+2019-06-16 08:24:39.423 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2019-06-16 08:24:39.446 INFO  (searcherExecutor-10-thread-1-processing-x:db_item) [   x:db_item] o.a.s.c.SolrCore [db_item] Registered new searcher Searcher@4a223ced[db_item] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-06-16 08:24:41.705 INFO  (qtp238816832-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1560673481525} status=0 QTime=1
+2019-06-16 08:24:41.709 INFO  (qtp238816832-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=2
+2019-06-16 08:24:41.747 INFO  (qtp238816832-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1560673481525} status=0 QTime=42
+2019-06-16 08:24:43.679 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1560673481525} status=0 QTime=0
+2019-06-16 08:24:43.689 INFO  (qtp238816832-25) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1560673483671} status=0 QTime=3
+2019-06-16 08:24:43.700 INFO  (qtp238816832-23) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/replication params={wt=json&command=details&_=1560673483672} status=0 QTime=3
+2019-06-16 08:24:43.713 INFO  (qtp238816832-22) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1560673481525&ts=1560673481525} status=503 QTime=1
+2019-06-16 08:24:43.801 INFO  (qtp238816832-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1560673481525} status=0 QTime=119
+2019-06-16 08:24:43.803 INFO  (qtp238816832-26) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/admin/system params={wt=json&_=1560673483672} status=0 QTime=100
+2019-06-16 08:24:44.582 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1560673481525} status=0 QTime=0
+2019-06-16 08:24:44.589 INFO  (qtp238816832-25) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1560673484569} status=0 QTime=1
+2019-06-16 08:24:44.625 INFO  (qtp238816832-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1560673481525} status=0 QTime=41
+2019-06-16 08:24:44.627 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1560673481525} status=0 QTime=0
+2019-06-16 08:24:44.629 INFO  (qtp238816832-22) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1560673484569} status=0 QTime=0
+2019-06-16 08:24:44.641 INFO  (qtp238816832-21) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1560673484569} status=0 QTime=6
+2019-06-16 08:24:44.672 INFO  (qtp238816832-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1560673481525} status=0 QTime=40
+2019-06-16 08:24:46.567 INFO  (qtp238816832-22) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1560673484569} status=0 QTime=0
+2019-06-16 08:24:46.935 INFO  (qtp238816832-25) [   x:db_item] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2019-06-16 08:24:46.949 ERROR (qtp238816832-25) [   x:db_item] o.a.s.h.RequestHandlerBase org.apache.solr.handler.dataimport.DataImportHandlerException: Data Config problem: 对实体 "serverTimezone" 的引用必须以 ';' 分隔符结尾。
+	at org.apache.solr.handler.dataimport.DataImporter.loadDataConfig(DataImporter.java:230)
+	at org.apache.solr.handler.dataimport.DataImporter.maybeReloadConfiguration(DataImporter.java:131)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2559)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:394)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:340)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/db-data-config.xml; lineNumber: 2; columnNumber: 138; 对实体 "serverTimezone" 的引用必须以 ';' 分隔符结尾。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:913)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:447)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:250)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.handler.dataimport.DataImporter.loadDataConfig(DataImporter.java:220)
+	... 42 more
+
+2019-06-16 08:24:46.950 INFO  (qtp238816832-25) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/dataimport params={core=db_item&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1560673484569&verbose=false} status=500 QTime=17
+2019-06-16 08:24:46.951 ERROR (qtp238816832-25) [   x:db_item] o.a.s.s.HttpSolrCall null:org.apache.solr.handler.dataimport.DataImportHandlerException: Data Config problem: 对实体 "serverTimezone" 的引用必须以 ';' 分隔符结尾。
+	at org.apache.solr.handler.dataimport.DataImporter.loadDataConfig(DataImporter.java:230)
+	at org.apache.solr.handler.dataimport.DataImporter.maybeReloadConfiguration(DataImporter.java:131)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2559)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:394)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:340)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/db-data-config.xml; lineNumber: 2; columnNumber: 138; 对实体 "serverTimezone" 的引用必须以 ';' 分隔符结尾。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:913)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:447)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:250)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.handler.dataimport.DataImporter.loadDataConfig(DataImporter.java:220)
+	... 42 more
+
+2019-06-16 08:24:48.574 INFO  (qtp238816832-22) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1560673484569} status=0 QTime=0
+2019-06-16 08:24:50.575 INFO  (qtp238816832-25) [   x:db_item] o.a.s.c.S.Request [db_item]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1560673484569} status=0 QTime=1
+2019-06-16 08:24:52.006 INFO  (qtp238816832-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1560673481525} status=0 QTime=0
+2019-06-16 08:24:52.008 INFO  (qtp238816832-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:24:52.046 INFO  (qtp238816832-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1560673481525} status=0 QTime=39
+2019-06-16 08:25:02.013 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:25:12.015 INFO  (qtp238816832-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:25:22.019 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:25:32.055 INFO  (qtp238816832-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:25:43.051 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:25:53.049 INFO  (qtp238816832-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:26:03.049 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:26:13.057 INFO  (qtp238816832-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:26:24.051 INFO  (qtp238816832-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1560673481697&since=0} status=0 QTime=0
+2019-06-16 08:26:24.244 INFO  (Thread-1) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@672b72ba{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-06-16 08:26:24.245 INFO  (Thread-1) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-06-16 08:26:24.249 INFO  (Thread-1) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1870749311
+2019-06-16 08:26:24.251 INFO  (coreCloseExecutor-15-thread-1) [   x:db_item] o.a.s.c.SolrCore [db_item]  CLOSING SolrCore org.apache.solr.core.SolrCore@606ca313
+2019-06-16 08:26:24.251 INFO  (coreCloseExecutor-15-thread-1) [   x:db_item] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.db_item, tag=606ca313
+2019-06-16 08:26:24.252 INFO  (coreCloseExecutor-15-thread-1) [   x:db_item] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@62d0f05a: rootName = null, domain = solr.core.db_item, service url = null, agent id = null] for registry solr.core.db_item / com.codahale.metrics.MetricRegistry@27495049
+2019-06-16 08:26:24.281 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-06-16 08:26:24.282 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@4e1ce44: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@1980b117
+2019-06-16 08:26:24.284 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-06-16 08:26:24.284 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1daf3b44: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@20f09032
+2019-06-16 08:26:24.285 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-06-16 08:26:24.286 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7fd8c559: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@105f2095
+2019-06-16 08:26:24.302 INFO  (Thread-1) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@340b9973{/solr,null,UNAVAILABLE}{D:\workspace\IntelliJ IDEA\solr-8.0.0\solr\server/solr-webapp/webapp}

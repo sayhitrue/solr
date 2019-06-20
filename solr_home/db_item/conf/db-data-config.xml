@@ -1,0 +1,9 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/solr?useSSL=false&amp;serverTimezone=UTC" user="root" password="Kjb,4286" />
+    <document>
+        <entity name="item" query="select * from item">
+
+        </entity>
+    </document>
+</dataConfig>
+
